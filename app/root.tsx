@@ -5,12 +5,12 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "remix";
-import type { MetaFunction } from "remix";
+} from 'remix'
+import type { MetaFunction } from 'remix'
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
-};
+  return { title: 'wecraftcode.org' }
+}
 
 export default function App() {
   return (
@@ -40,15 +40,15 @@ export default function App() {
       </head>
       <body
         style={{
-          margin: "0 !important",
-          boxSizing: "border-box",
+          margin: '0 !important',
+          boxSizing: 'border-box',
         }}
       >
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        {process.env.NODE_ENV === "development" && <LiveReload />}
+        {process.env.NODE_ENV === 'development' && <LiveReload />}
       </body>
     </html>
-  );
+  )
 }
