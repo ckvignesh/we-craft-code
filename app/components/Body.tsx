@@ -1,12 +1,17 @@
 export default function Body() {
   return (
-    <div>
+    <div
+      style={{
+        maxWidth: '100%',
+        backgroundColor: '#191919',
+        padding: '1px',
+      }}
+    >
       <img
-        src="/images/logo_transparent_background.png"
         style={{
           maxWidth: '100%',
-          backgroundColor: 'black',
         }}
+        src="/images/logo_transparent_background.png"
       ></img>
     </div>
   )
