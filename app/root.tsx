@@ -9,6 +9,7 @@ import {
 import type { MetaFunction } from 'remix'
 
 export const meta: MetaFunction = () => {
+feat-discord-github-buttons
   return { title: 'wecraftcode.org' }
 }
 
