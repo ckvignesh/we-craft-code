@@ -1,4 +1,4 @@
-import { FaGithub, FaDiscord, FaReddit } from 'react-icons/fa'
+import { FaGithub, FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa'
 
 export default function Header() {
   return (
@@ -22,6 +22,9 @@ export default function Header() {
       </a>
       <a href="https://www.reddit.com/r/wecraftcode/" target="_blank">
         <FaReddit style={{ color: '#ff4500' }} />
+      </a>
+      <a href="https://twitter.com/we_craft_code" target="_blank">
+        <FaTwitter style={{ color: '#00acee' }} />
       </a>
     </div>
   )
