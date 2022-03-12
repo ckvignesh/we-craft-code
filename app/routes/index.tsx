@@ -1,10 +1,10 @@
 import Body from '~/components/Body'
-import Heading from '~/components/Heading'
+import Header from '~/components/Header'
 
 export default function Index() {
   return (
     <div>
-      <Heading />
+      <Header />
       <Body />
     </div>
   )
