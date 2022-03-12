@@ -1,6 +1,6 @@
 import { FaGithub, FaDiscord, FaReddit, FaTwitter } from 'react-icons/fa'
 
-export default function Heading() {
+export default function Header() {
   return (
     <div
       style={{
