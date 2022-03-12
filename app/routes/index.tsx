@@ -1,19 +1,11 @@
+import Body from '~/components/Body'
+import Header from '~/components/Header'
+
 export default function Index() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "black",
-        height: "100vh",
-      }}
-    >
-      <img
-        src="/images/logo_transparent_background.png"
-        style={{ maxWidth: "80%" }}
-      />
+    <div>
+      <Header />
+      <Body />
     </div>
-  );
+  )
 }
