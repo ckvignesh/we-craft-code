@@ -1,17 +1,10 @@
 export default function Body() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-      }}
-    >
+    <div className="flex justify-center">
       <img
-        style={{
-          maxWidth: '80%',
-        }}
+        className="max-w-[80%]"
         src="/images/logo_transparent_background.png"
-      ></img>
+      />
     </div>
   )
 }
