@@ -6,10 +6,15 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'remix'
-import type { MetaFunction } from 'remix'
+import styles from './styles/app.css'
+import type { MetaFunction, LinksFunction } from 'remix'
 
 export const meta: MetaFunction = () => {
   return { title: 'wecraftcode.org' }
+}
+
+export function links() {
+  return [{ rel: 'stylesheet', href: styles }]
 }
 
 export default function App() {
@@ -38,12 +43,7 @@ export default function App() {
           href="/favicon/favicon-16x16.png"
         />
       </head>
-      <body
-        style={{
-          margin: '0 !important',
-          boxSizing: 'border-box',
-        }}
-      >
+      <body className="!m-0 border-box">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
